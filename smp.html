@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js 1st task</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body{
+			margin: 0;
+		}
+		.tabcontent{
+			background-color:#e4ebf3;
+		}
+		.mjn{
+			background-image: url("bck.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		} 
+  		.mar{
+  			background-color: #084374;
+  			color: white;
+  			padding:2px;
+  		}
+  		.hel{
+  			padding:10px;
+  		}
+  		.cen{
+  			padding: 10px;
+  			background-color: #b8c8de;
+  		}
+  		.fac{
+  			position: relative;
+  			top:20px;
+  		}
+  		.fac i{
+  			color:#084374;
+  		}
+  		.ni a{
+  			color:#084374;
+  			padding-left:10px;
+  			text-decoration: none;
+  			font-family: sans-serif;
+  			font-size: medium;
+  		}
+  		.ni a i{
+  			padding-right: 5px;
+  		}
+  		.pri{
+  			position: relative;
+  			bottom: 130px;
+  		}
+  		.pri a{
+  			color:#084374;
+  			padding-left:20px;
+  			text-decoration: none;
+  		}
+  		.pri a i{
+  			padding-right: 5px;
+  		}
+  		.ni {
+  			padding-right:10px;
+  		}
+  		.cen a{
+  			color:#084374;
+  			padding-left:20px;
+  			text-decoration: none;
+  			font-family: cursive;
+  			font-size: medium;
+  			font-style: italic;
+  		}
+  		#my,#mi,#mt,#mm,#ma,#mb{
+  			width:400px;
+  			height:350px;
+  		}
+  		button{
+  			color: white;
+  			background-color: darkblue;
+  			padding: 10px;
+  			font-family: cursive;
+  			font-size: small;
+  		}
+  		.hel{
+  			padding-left:20px;
+  			position: relative;
+  			padding-right: 30px;
+   		}
+   		.hel img{
+   			padding-right: 50px;
+   			padding-left: 10px;
+   		}
+	</style>
+	<script>
+		function fun(){
+			document.getElementById("bu").style.backgroundColor = "white"; 
+			document.getElementById("bu").style.color = "darkblue";
+		}
+		function ret(){
+			document.getElementById("bu").style.backgroundColor = "darkblue"; 
+			document.getElementById("bu").style.color = "white";
+		}
+		function fun1(){
+			document.getElementById("bd").style.backgroundColor = "white"; 
+			document.getElementById("bd").style.color = "darkblue";
+		}
+		function ret1(){
+			document.getElementById("bd").style.backgroundColor = "darkblue"; 
+			document.getElementById("bd").style.color = "white";
+		}
+		function fun2(){
+			document.getElementById("bc").style.backgroundColor = "white"; 
+			document.getElementById("bc").style.color = "darkblue";
+		}
+		function ret2(){
+			document.getElementById("bc").style.backgroundColor = "darkblue"; 
+			document.getElementById("bc").style.color = "white";
+		}
+		function fun3(){
+			document.getElementById("bb").style.backgroundColor = "white"; 
+			document.getElementById("bb").style.color = "darkblue";
+		}
+		function ret3(){
+			document.getElementById("bb").style.backgroundColor = "darkblue"; 
+			document.getElementById("bb").style.color = "white";
+		}
+		function fun4(){
+			document.getElementById("ba").style.backgroundColor = "white"; 
+			document.getElementById("ba").style.color = "darkblue";
+		}
+		function ret4(){
+			document.getElementById("ba").style.backgroundColor = "darkblue"; 
+			document.getElementById("ba").style.color = "white";
+		}
+		function fun5(){
+			document.getElementById("bi").style.backgroundColor = "white"; 
+			document.getElementById("bi").style.color = "darkblue";
+		}
+		function ret5(){
+			document.getElementById("bi").style.backgroundColor = "darkblue"; 
+			document.getElementById("bi").style.color = "white";
+		}
+	</script>
+</head>
+<body>
+	<div class="tabcontent" >
+		<br>
+		<div class="fac">
+			&ensp;&ensp;<i class="fa fa-instagram" ></i>&ensp;&ensp;
+			<i class="fa fa-facebook" ></i>&ensp;&ensp;
+			<i class="fa fa-whatsapp" ></i>&ensp;&ensp;
+			<i class="fa fa-twitter" ></i>&ensp;&ensp;
+		</div>
+		<nav align="right" class="ni">
+		<a href="#user"><i class="fa fa-user"></i> User</a>         
+		<a href="#result"><i class="fa fa-file"></i>Result</a>     
+		<a href="#login"><i class="fa fa-lock"></i>Login</a>     
+		<a href="#contact"><i class="fa fa-phone"></i>Contact</a>   
+		</nav>
+		<br>
+	</div>
+	<div class="hel">
+	<img src="img.png" width="350" height="180">
+	<img src="tnea.png" width="120">
+	<img src="nba.png" width="160">
+	<img src="naac.png" width="120">
+	<img src="kr.png" width="130">
+	<div align="right" class="pri">
+	<a href="#" onclick="print()"><i class="fa fa-print"></i>Print this page</a>
+</div>
+</div>
+	<div class="cen" align="center">
+		<a href="#home">Home</a>&ensp;
+		<a href="#abt">About us</a>&ensp;
+		<a href="#adm">Admission</a>&ensp;
+		<a href="#Academics">Academics</a>&ensp;
+		<a href="#pla">Placements</a>&ensp;
+		<a href="#fa">Facilities</a>&ensp;
+		<a href="#ex">Examination</a>&ensp;
+		<a href="#res">Research</a>&ensp;
+		<a href="#lib">Library</a>&ensp;
+		<a href="#qu">Queries</a>&ensp;
+	</div>
+	<div class="mar">
+		<marquee onmouseover="stop()" onmouseout="start()">
+		<script>
+			document.writeln("<b>We achieve a prominent position among the top technical institutions || We provide education for developing high-quality professionals to transform the society || We nurture research and entrepreneurial skills among students in cutting edge technologies </b>")
+			</script>
+		</marquee>
+	</div>
+	<div class="mjn" align="center">
+		<br>
+
+		<img id="my" class="img" src="st2.jpg">
+		<br><br>
+		<button class="img" id="bu" onmouseenter="fun()" onmouseleave="ret()" onclick="document.getElementById('my').src='st1.jpg'"><b>Student image</b></button>
+		<br><br>
+		<img  class="img" id="mi" src="coll.jpg">
+		<br><br>
+		<button  class="img" id="bi" onmouseenter="fun5()" onmouseleave="ret5()" onclick="document.getElementById('mi').src='stu1.jpg'"><b>College campus</b></button>
+		<br><br>
+		<img  class="img" id="mt" src="st3.jpg">
+		<br><br>
+		<button  class="img" id="ba" onmouseenter="fun4()" onmouseleave="ret4()" onclick="document.getElementById('mt').src='stu2.jpeg'"><b>Department of English</b></button>
+		<br><br>
+		<img id="mm" class="img" src="st4.jpg">
+		<br><br>
+		<button class="img" id="bb" onmouseenter="fun3()" onmouseleave="ret3()" onclick="document.getElementById('mm').src='stu3.jpg'"><b>Department of Science</b></button>
+		<br><br>
+		<img id="ma" class="img" src="st5.jpg">
+		<br><br>
+		<button class="img" id="bc" onmouseenter="fun2()" onmouseleave="ret2()" onclick="document.getElementById('ma').src='stu4.jpg'"><b>Department of Mathematics</b></button>
+		<br><br>
+		<img id="mb" class="img" src="st6.jpg">
+		<br><br>
+		<button class="img" id="bd" onmouseenter="fun1()" onmouseleave="ret1()" onclick="document.getElementById('mb').src='stu5.jpg'"><b>Department of Physics</b></button>
+		<br><br>
+
+	</div>
+</body>
